@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .calculator{
+    display: grid;
+    grid-template-areas: 
+      'display display display display'
+      'clear clear div mult'
+      'sev eight nine subtr'
+      'four five six add'
+      'one two three equals'
+      'zero zero dot equals';
+    width: 80%;
+    max-width: 400px;
+    height:40vw;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+  
+  #displays{
+    grid-area: display;
+    border: 1px solid black;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;  
+  }
+  #display{
+    font-size: 32px;
+  }
+  #display2{
+    font-size: 20px
+  }
+  
+  #clear{
+    grid-area: clear;
+    background-color: #737D80;
+    color: white;
+  }
+  #divide{
+    grid-area:div;
+    background-color: #8CFFD5;
+  }
+  #multiply{
+    grid-area:mult;
+    background-color: #8CFFD5;
+  
+  }
+  #seven{
+    grid-area:sev;
+    background-color: #4D7680;
+    color: white;
+  }
+  #eight{
+    grid-area:eight;
+    background-color: #4D7680;
+    color: white;
+  }
+  #nine{
+    grid-area:nine;
+      background-color: #4D7680;
+    color: white;
+  
+  }
+  #subtract{
+    grid-area:subtr;
+      background-color: #8CFFD5;
+  
+  }
+  #four{
+    grid-area:four;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #five{
+    grid-area:five;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #six{
+    grid-area:six;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #add{
+    grid-area:add;
+      background-color: #8CFFD5;
+  
+  }
+  #one{
+    grid-area:one;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #two{
+    grid-area:two;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #three{
+    grid-area:three;
+        background-color: #4D7680;
+    color: white;
+  
+  }
+  #equals{
+    grid-area:equals;
+    background-color: #FFF380;
+  }
+  #zero{
+    grid-area:zero;
+        background-color: #4D7680;
+  color: white;
+  }
+  #decimal{
+    grid-area: dot;
+    background-color: #4D7680;
+    color: white;
+  }
+  
